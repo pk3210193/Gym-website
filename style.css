@@ -1,0 +1,55 @@
+#contact-form label{
+    color: #333
+    
+}
+
+#contact-form .btn-send {
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+    width: 80%;
+    margin-left: 3px
+}
+
+#contact-form.help-block.with-errors {
+    color: #ff5050;
+    margin-top: 5px
+}
+
+#contact-form .card {
+    margin-left: 10px;
+    margin-right: 10px
+}
+#contact-form h1 {
+    margin-bottom: 10px
+}
+#contact-form .col-md-6{
+    margin-bottom: 25px;
+}
+#contact-form .form-group label{
+    margin-bottom: 5px;
+}
+#contact-form{
+    margin-bottom: 50px;
+}
+@media (max-width:600px) {
+    .table,thead,tbody{
+               font-size: 15px;
+               }
+    .sy-head{
+        font-size: 16px;
+        margin: 0px;
+        
+        height: 34px;
+    } 
+    .ct-socials{
+        padding-left:0px;
+        right: 2px !important;
+    }  
+    .navbar-brand img{
+               width: 100%;
+    } 
+    .navbar-brand{
+        width: 70%;
+    }       
+}
